@@ -1,0 +1,1173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Nexia Virtual Desk | PCC Data Collection Form (2026)</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter & Noto Sans Malayalam -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Malayalam:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', 'Noto Sans Malayalam', sans-serif;
+            background-color: #f1f5f9;
+            color: #0f172a;
+            overflow-x: hidden;
+        }
+        /* Marquee Animation */
+        @keyframes marquee {
+            0% { transform: translateX(0%); }
+            100% { transform: translateX(-50%); }
+        }
+        .animate-marquee {
+            display: flex;
+            width: max-content;
+            animation: marquee 28s linear infinite;
+        }
+        .animate-marquee:hover {
+            animation-play-state: paused;
+        }
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f5f9;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #6366f1;
+            border-radius: 9999px;
+        }
+        /* Input Focus & Transitions */
+        .form-input {
+            transition: all 0.2s ease-in-out;
+        }
+        .form-input:focus {
+            box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.2);
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between">
+
+    <!-- 1. TOP SCROLLING MARQUEE BANNER -->
+    <div class="bg-slate-950 text-amber-400 py-2 overflow-hidden border-b border-slate-800 sticky top-0 z-40 shadow-md">
+        <div class="animate-marquee text-xs sm:text-sm font-semibold tracking-wide">
+            <span class="mx-6">✦ Nexia Virtual Desk | Olarikkara, Thrissur</span>
+            <span class="mx-6">✦ 17 Years of Experience</span>
+            <span class="mx-6">✦ Fully Updated Automated Supports</span>
+            <span class="mx-6">✦ Online Application Services</span>
+            <span class="mx-6">✦ Resume & CV Creation</span>
+            <span class="mx-6">✦ Contact: +91 9961850698</span>
+            <!-- Duplicate for seamless loop -->
+            <span class="mx-6">✦ Nexia Virtual Desk | Olarikkara, Thrissur</span>
+            <span class="mx-6">✦ 17 Years of Experience</span>
+            <span class="mx-6">✦ Fully Updated Automated Supports</span>
+            <span class="mx-6">✦ Online Application Services</span>
+            <span class="mx-6">✦ Resume & CV Creation</span>
+            <span class="mx-6">✦ Contact: +91 9961850698</span>
+        </div>
+    </div>
+
+    <!-- MAIN CONTAINER -->
+    <main class="w-full max-w-3xl mx-auto px-3 sm:px-6 py-5 sm:py-8">
+        
+        <!-- BRAND HEADER CARD -->
+        <div class="bg-gradient-to-br from-indigo-950 via-slate-900 to-indigo-900 text-white rounded-3xl p-5 sm:p-7 shadow-xl border border-indigo-800/50 mb-5 relative overflow-hidden">
+            <div class="absolute -right-10 -top-10 w-40 h-40 bg-indigo-500/10 rounded-full blur-2xl pointer-events-none"></div>
+            <div class="flex items-center gap-4">
+                <!-- Geometric 'N' SVG Logo -->
+                <div class="w-14 h-14 sm:w-16 sm:h-16 rounded-2xl bg-gradient-to-tr from-indigo-600 to-cyan-400 p-0.5 shadow-lg flex-shrink-0">
+                    <div class="w-full h-full bg-slate-950 rounded-[14px] flex items-center justify-center">
+                        <svg class="w-9 h-9 sm:w-10 sm:h-10" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14 50V14L34 38V14" stroke="url(#nexiaGrad1)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M30 26L50 50V14" stroke="url(#nexiaGrad2)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+                            <defs>
+                                <linearGradient id="nexiaGrad1" x1="14" y1="14" x2="34" y2="50" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#38bdf8"/>
+                                    <stop offset="1" stop-color="#6366f1"/>
+                                </linearGradient>
+                                <linearGradient id="nexiaGrad2" x1="30" y1="14" x2="50" y2="50" gradientUnits="userSpaceOnUse">
+                                    <stop stop-color="#f59e0b"/>
+                                    <stop offset="1" stop-color="#ec4899"/>
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </div>
+                </div>
+                <div>
+                    <div class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-[11px] font-bold bg-indigo-500/20 text-cyan-300 border border-cyan-400/30 mb-1">
+                        <span>ULARIKKARA, THRISSUR</span> • <span>EST. 17+ YRS</span>
+                    </div>
+                    <h1 class="text-xl sm:text-2xl font-extrabold tracking-tight text-white">NEXIA VIRTUAL DESK</h1>
+                    <p class="text-xs sm:text-sm text-indigo-200 font-medium mt-0.5">
+                        Police Clearance Certificate (PCC / NIOC) - Data Collection Form (2026)
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- DISCLAIMER & ENGLISH-ONLY NOTICE -->
+        <div class="bg-amber-50 border-l-4 border-amber-500 rounded-2xl p-4 sm:p-5 mb-6 shadow-sm">
+            <div class="flex items-start gap-3">
+                <div class="w-8 h-8 rounded-xl bg-amber-500/20 text-amber-700 flex items-center justify-center flex-shrink-0 font-bold text-lg">
+                    !
+                </div>
+                <div class="text-xs sm:text-sm space-y-1.5 text-slate-800">
+                    <p class="font-bold text-amber-900 uppercase tracking-wide">Important Instruction / പ്രധാന അറിയിപ്പ്</p>
+                    <p>This is an automated data collection portal by <strong>Nexia Virtual Desk</strong> for assisting with your online Kerala Police THUNA PCC application.</p>
+                    <p class="font-semibold text-red-700 bg-red-100/80 px-2.5 py-1.5 rounded-lg border border-red-200">
+                        ⚠️ Please fill all answers in <strong>ENGLISH ONLY</strong>.<br>
+                        <span class="text-xs font-normal text-red-800">ദയവായി ചോദ്യങ്ങൾ വായിച്ച് എല്ലാ വിവരങ്ങളും <strong>ഇംഗ്ലീഷിൽ മാത്രം</strong> ടൈപ്പ് ചെയ്യുക.</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Error Banner (Hidden by default) -->
+        <div id="formErrorBanner" class="hidden bg-red-600 text-white rounded-2xl p-4 mb-5 shadow-lg flex items-center justify-between">
+            <div class="flex items-center gap-3 text-sm font-medium">
+                <svg class="w-6 h-6 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/>
+                </svg>
+                <span id="formErrorText">Please fill in all required fields (*) properly. / ദയവായി എല്ലാ വിവരങ്ങളും പൂരിപ്പിക്കുക.</span>
+            </div>
+            <button type="button" onclick="document.getElementById('formErrorBanner').classList.add('hidden')" class="text-white/80 hover:text-white font-bold px-2">✕</button>
+        </div>
+
+        <!-- MAIN FORM -->
+        <form id="pccForm" class="space-y-6" novalidate>
+
+            <!-- SECTION 01: PERSONAL INFORMATION -->
+            <section class="bg-white rounded-3xl p-5 sm:p-6 shadow-sm border border-slate-200/80">
+                <div class="flex items-center gap-3 pb-4 mb-5 border-b border-slate-100">
+                    <span class="w-8 h-8 rounded-xl bg-indigo-600 text-white font-bold text-sm flex items-center justify-center shadow-sm">01</span>
+                    <div>
+                        <h2 class="text-base sm:text-lg font-bold text-slate-900">Personal Information</h2>
+                        <p class="text-xs text-slate-500 font-medium">വ്യക്തിഗത വിവരങ്ങൾ (ഇംഗ്ലീഷിൽ പൂരിപ്പിക്കുക)</p>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <!-- First Name -->
+                    <div>
+                        <label class="block text-xs sm:text-sm font-semibold text-slate-800 mb-1">
+                            First Name <span class="text-red-500">*</span>
+                            <span class="block text-[11px] font-normal text-slate-500">പേരിന്റെ ആദ്യ ഭാഗം</span>
+                        </label>
+                        <input type="text" id="firstName" name="First Name" required placeholder="e.g. Rajesh"
+                            class="english-only form-input w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-sm text-slate-900 focus:border-indigo-600 focus:outline-none">
+                        <p class="lang-hint hidden text-[11px] text-red-600 mt-1 font-medium">⚠️ Please type in English letters only (ഇംഗ്ലീഷിൽ മാത്രം ടൈപ്പ് ചെയ്യുക)</p>
+                    </div>
+
+                    <!-- Last Name -->
+                    <div>
+                        <label class="block text-xs sm:text-sm font-semibold text-slate-800 mb-1">
+                            Last Name <span class="text-red-500">*</span>
+                            <span class="block text-[11px] font-normal text-slate-500">പേരിന്റെ അവസാന ഭാഗം / ഇനിഷ്യൽ</span>
+                        </label>
+                        <input type="text" id="lastName" name="Last Name" required placeholder="e.g. Lal"
+                            class="english-only form-input w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-sm text-slate-900 focus:border-indigo-600 focus:outline-none">
+                        <p class="lang-hint hidden text-[11px] text-red-600 mt-1 font-medium">⚠️ Please type in English letters only (ഇംഗ്ലീഷിൽ മാത്രം ടൈപ്പ് ചെയ്യുക)</p>
+                    </div>
+
+                    <!-- Date of Birth -->
+                    <div>
+                        <label class="block text-xs sm:text-sm font-semibold text-slate-800 mb-1">
+                            Date of Birth <span class="text-red-500">*</span>
+                            <span class="block text-[11px] font-normal text-slate-500">ജനന തീയതി</span>
+                        </label>
+                        <input type="date" id="dob" name="Date of Birth" required
+                            class="form-input w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-sm text-slate-900 focus:border-indigo-600 focus:outline-none bg-white">
+                    </div>
+
+                    <!-- Gender -->
+                    <div>
+                        <label class="block text-xs sm:text-sm font-semibold text-slate-800 mb-1">
+                            Gender <span class="text-red-500">*</span>
+                            <span class="block text-[11px] font-normal text-slate-500">ലിംഗവിവരം</span>
+                        </label>
+                        <select id="gender" name="Gender" required
+                            class="form-input w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-sm text-slate-900 focus:border-indigo-600 focus:outline-none bg-white">
+                            <option value="">-- Select Gender / തിരഞ്ഞെടുക്കുക --</option>
+                            <option value="Male">Male (പുരുഷൻ)</option>
+                            <option value="Female">Female (സ്ത്രീ)</option>
+                            <option value="Transgender">Transgender (ട്രാൻസ്ജെൻഡർ)</option>
+                        </select>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECTION 02: CONTACT & RELATION INFORMATION -->
+            <section class="bg-white rounded-3xl p-5 sm:p-6 shadow-sm border border-slate-200/80">
+                <div class="flex items-center gap-3 pb-4 mb-5 border-b border-slate-100">
+                    <span class="w-8 h-8 rounded-xl bg-indigo-600 text-white font-bold text-sm flex items-center justify-center shadow-sm">02</span>
+                    <div>
+                        <h2 class="text-base sm:text-lg font-bold text-slate-900">Contact & Relation Information</h2>
+                        <p class="text-xs text-slate-500 font-medium">ബന്ധപ്പെടേണ്ട വിവരങ്ങളും ബന്ധുവിന്റെ വിവരങ്ങളും</p>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <!-- Mobile Number -->
+                    <div>
+                        <label class="block text-xs sm:text-sm font-semibold text-slate-800 mb-1">
+                            Mobile Number (10 Digits) <span class="text-red-500">*</span>
+                            <span class="block text-[11px] font-normal text-slate-500">മൊബൈൽ നമ്പർ</span>
+                        </label>
+                        <input type="tel" id="mobileNumber" name="Mobile Number" required maxlength="10" pattern="[0-9]{10}" placeholder="e.g. 9961850698"
+                            oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 10);"
+                            class="form-input w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-sm text-slate-900 focus:border-indigo-600 focus:outline-none">
+                    </div>
+
+                    <!-- Landline Number -->
+                    <div>
+                        <label class="block text-xs sm:text-sm font-semibold text-slate-800 mb-1">
+                            Landline Number <span class="text-slate-400 font-normal">(Optional)</span>
+                            <span class="block text-[11px] font-normal text-slate-500">ലാൻഡ്‌ലൈൻ നമ്പർ (നിർബന്ധമില്ല)</span>
+                        </label>
+                        <input type="tel" id="landlineNumber" name="Landline Number" placeholder="Optional"
+                            oninput="this.value = this.value.replace(/[^0-9-]/g, '');"
+                            class="form-input w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-sm text-slate-900 focus:border-indigo-600 focus:outline-none">
+                    </div>
+
+                    <!-- Email ID -->
+                    <div>
+                        <label class="block text-xs sm:text-sm font-semibold text-slate-800 mb-1">
+                            Email ID <span class="text-red-500">*</span>
+                            <span class="block text-[11px] font-normal text-slate-500">ഇമെയിൽ വിലാസം</span>
+                        </label>
+                        <input type="email" id="emailId" name="Email ID" required placeholder="e.g. name@gmail.com"
+                            class="english-only form-input w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-sm text-slate-900 focus:border-indigo-600 focus:outline-none">
+                        <p class="lang-hint hidden text-[11px] text-red-600 mt-1 font-medium">⚠️ Please type in English only</p>
+                    </div>
+
+                    <!-- Nationality -->
+                    <div>
+                        <label class="block text-xs sm:text-sm font-semibold text-slate-800 mb-1">
+                            Nationality <span class="text-red-500">*</span>
+                            <span class="block text-[11px] font-normal text-slate-500">പൗരത്വം</span>
+                        </label>
+                        <input type="text" id="nationality" name="Nationality" value="INDIA" readonly
+                            class="form-input w-full rounded-xl border border-slate-200 bg-slate-100 px-3.5 py-2.5 text-sm text-slate-700 font-semibold cursor-not-allowed">
+                    </div>
+
+                    <!-- Relation Type -->
+                    <div>
+                        <label class="block text-xs sm:text-sm font-semibold text-slate-800 mb-1">
+                            Relation Type <span class="text-red-500">*</span>
+                            <span class="block text-[11px] font-normal text-slate-500">ബന്ധുത്വം</span>
+                        </label>
+                        <select id="relationType" name="Relation Type" required
+                            class="form-input w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-sm text-slate-900 focus:border-indigo-600 focus:outline-none bg-white">
+                            <option value="">-- Select Relation / തിരഞ്ഞെടുക്കുക --</option>
+                            <option value="Father">Father (പിതാവ്)</option>
+                            <option value="Mother">Mother (മാതാവ്)</option>
+                            <option value="Husband">Husband (ഭർത്താവ്)</option>
+                            <option value="Wife">Wife (ഭാര്യ)</option>
+                            <option value="Guardian">Guardian (രക്ഷിതാവ്)</option>
+                        </select>
+                    </div>
+
+                    <!-- Relative Name -->
+                    <div>
+                        <label class="block text-xs sm:text-sm font-semibold text-slate-800 mb-1">
+                            Relative Name <span class="text-red-500">*</span>
+                            <span class="block text-[11px] font-normal text-slate-500">ബന്ധുവിന്റെ പേര് (ഇംഗ്ലീഷിൽ)</span>
+                        </label>
+                        <input type="text" id="relativeName" name="Relative Name" required placeholder="e.g. Raghav Rajan"
+                            class="english-only form-input w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-sm text-slate-900 focus:border-indigo-600 focus:outline-none">
+                        <p class="lang-hint hidden text-[11px] text-red-600 mt-1 font-medium">⚠️ Please type in English letters only</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECTION 03: IDENTIFICATION INFORMATION -->
+            <section class="bg-white rounded-3xl p-5 sm:p-6 shadow-sm border border-slate-200/80">
+                <div class="flex items-center gap-3 pb-4 mb-5 border-b border-slate-100">
+                    <span class="w-8 h-8 rounded-xl bg-indigo-600 text-white font-bold text-sm flex items-center justify-center shadow-sm">03</span>
+                    <div>
+                        <h2 class="text-base sm:text-lg font-bold text-slate-900">Identification Information</h2>
+                        <p class="text-xs text-slate-500 font-medium">തിരിച്ചറിയൽ രേഖകളുടെ വിവരങ്ങൾ</p>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                    <!-- ID Type -->
+                    <div>
+                        <label class="block text-xs sm:text-sm font-semibold text-slate-800 mb-1">
+                            ID Type <span class="text-red-500">*</span>
+                            <span class="block text-[11px] font-normal text-slate-500">തിരിച്ചറിയൽ രേഖയുടെ തരം</span>
+                        </label>
+                        <select id="idType" name="ID Type" required
+                            class="form-input w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-sm text-slate-900 focus:border-indigo-600 focus:outline-none bg-white">
+                            <option value="AADHAR CARD(UIDAI)">AADHAR CARD (UIDAI)</option>
+                            <option value="VOTER ID">VOTER ID</option>
+                            <option value="PASSPORT">PASSPORT</option>
+                            <option value="DRIVING LICENCE">DRIVING LICENCE</option>
+                            <option value="PAN CARD">PAN CARD</option>
+                        </select>
+                    </div>
+
+                    <!-- ID Number -->
+                    <div>
+                        <label class="block text-xs sm:text-sm font-semibold text-slate-800 mb-1">
+                            ID Number <span class="text-red-500">*</span>
+                            <span class="block text-[11px] font-normal text-slate-500">തിരിച്ചറിയൽ രേഖ നമ്പർ</span>
+                        </label>
+                        <input type="text" id="idNumber" name="ID Number" required placeholder="Enter ID Number"
+                            class="english-only form-input w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-sm text-slate-900 focus:border-indigo-600 focus:outline-none">
+                        <p class="lang-hint hidden text-[11px] text-red-600 mt-1 font-medium">⚠️ English characters & numbers only</p>
+                    </div>
+
+                    <!-- Address Proof Document Type -->
+                    <div>
+                        <label class="block text-xs sm:text-sm font-semibold text-slate-800 mb-1">
+                            Address Proof Document <span class="text-red-500">*</span>
+                            <span class="block text-[11px] font-normal text-slate-500">മേൽവിലാസം തെളിയിക്കുന്ന രേഖ</span>
+                        </label>
+                        <select id="addressProofType" name="Address Proof Document Type" required
+                            class="form-input w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-sm text-slate-900 focus:border-indigo-600 focus:outline-none bg-white">
+                            <option value="Aadhaar Card">Aadhaar Card (ആധാർ കാർഡ്)</option>
+                            <option value="Voter's ID">Voter's ID (വോട്ടർ ഐഡി)</option>
+                            <option value="Ration Card">Ration Card (റേഷൻ കാർഡ്)</option>
+                            <option value="SSLC Book">SSLC Book (എസ്.എസ്.എൽ.സി ബുക്ക്)</option>
+                            <option value="Passport">Passport (പാസ്‌പോർട്ട്)</option>
+                            <option value="Bank Passbook">Bank Passbook (ബാങ്ക് പാസ്ബുക്ക്)</option>
+                        </select>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECTION 04: PERMANENT ADDRESS -->
+            <section class="bg-white rounded-3xl p-5 sm:p-6 shadow-sm border border-slate-200/80">
+                <div class="flex items-center gap-3 pb-4 mb-5 border-b border-slate-100">
+                    <span class="w-8 h-8 rounded-xl bg-indigo-600 text-white font-bold text-sm flex items-center justify-center shadow-sm">04</span>
+                    <div>
+                        <h2 class="text-base sm:text-lg font-bold text-slate-900">Permanent Address</h2>
+                        <p class="text-xs text-slate-500 font-medium">സ്ഥിര വിലാസം (ഇംഗ്ലീഷിൽ മാത്രം പൂരിപ്പിക്കുക)</p>
+                    </div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <!-- House Name -->
+                    <div>
+                        <label class="block text-xs sm:text-sm font-semibold text-slate-800 mb-1">
+                            House Name <span class="text-red-500">*</span>
+                            <span class="block text-[11px] font-normal text-slate-500">വീട്ടുപേര്</span>
+                        </label>
+                        <input type="text" id="permHouseName" name="Permanent - House Name" required placeholder="e.g. SreeRagam House"
+                            oninput="syncPresentAddress()"
+                            class="english-only form-input w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-sm text-slate-900 focus:border-indigo-600 focus:outline-none">
+                        <p class="lang-hint hidden text-[11px] text-red-600 mt-1 font-medium">⚠️ Please type in English only</p>
+                    </div>
+
+                    <!-- House No -->
+                    <div>
+                        <label class="block text-xs sm:text-sm font-semibold text-slate-800 mb-1">
+                            House No <span class="text-red-500">*</span>
+                            <span class="block text-[11px] font-normal text-slate-500">വീട്ടുനമ്പർ (വാർഡ്/ഡോർ നമ്പർ)</span>
+                        </label>
+                        <input type="text" id="permHouseNo" name="Permanent - House No" required placeholder="e.g. 55/304/2"
+                            oninput="syncPresentAddress()"
+                            class="english-only form-input w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-sm text-slate-900 focus:border-indigo-600 focus:outline-none">
+                        <p class="lang-hint hidden text-[11px] text-red-600 mt-1 font-medium">⚠️ Please type in English only</p>
+                    </div>
+
+                    <!-- Street -->
+                    <div>
+                        <label class="block text-xs sm:text-sm font-semibold text-slate-800 mb-1">
+                            Street <span class="text-red-500">*</span>
+                            <span class="block text-[11px] font-normal text-slate-500">റോഡ് / സ്ട്രീറ്റ്</span>
+                        </label>
+                        <input type="text" id="permStreet" name="Permanent - Street" required placeholder="e.g. Sreemuruga Road"
+                            oninput="syncPresentAddress()"
+                            class="english-only form-input w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-sm text-slate-900 focus:border-indigo-600 focus:outline-none">
+                        <p class="lang-hint hidden text-[11px] text-red-600 mt-1 font-medium">⚠️ Please type in English only</p>
+                    </div>
+
+                    <!-- Locality -->
+                    <div>
+                        <label class="block text-xs sm:text-sm font-semibold text-slate-800 mb-1">
+                            Locality <span class="text-red-500">*</span>
+                            <span class="block text-[11px] font-normal text-slate-500">സ്ഥലം / ലൊക്കാലിറ്റി</span>
+                        </label>
+                        <input type="text" id="permLocality" name="Permanent - Locality" required placeholder="e.g. Olarikkara"
+                            oninput="syncPresentAddress()"
+                            class="english-only form-input w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-sm text-slate-900 focus:border-indigo-600 focus:outline-none">
+                        <p class="lang-hint hidden text-[11px] text-red-600 mt-1 font-medium">⚠️ Please type in English only</p>
+                    </div>
+
+                    <!-- Village / Town / City -->
+                    <div>
+                        <label class="block text-xs sm:text-sm font-semibold text-slate-800 mb-1">
+                            Village / Town / City <span class="text-red-500">*</span>
+                            <span class="block text-[11px] font-normal text-slate-500">വില്ലേജ് / ടൗൺ / സിറ്റി</span>
+                        </label>
+                        <input type="text" id="permVillage" name="Permanent - Village/Town/City" required placeholder="e.g. Pullazhy"
+                            oninput="syncPresentAddress()"
+                            class="english-only form-input w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-sm text-slate-900 focus:border-indigo-600 focus:outline-none">
+                        <p class="lang-hint hidden text-[11px] text-red-600 mt-1 font-medium">⚠️ Please type in English only</p>
+                    </div>
+
+                    <!-- Pin Code -->
+                    <div>
+                        <label class="block text-xs sm:text-sm font-semibold text-slate-800 mb-1">
+                            Pin Code (6 Digits) <span class="text-red-500">*</span>
+                            <span class="block text-[11px] font-normal text-slate-500">പിൻ കോഡ്</span>
+                        </label>
+                        <input type="tel" id="permPinCode" name="Permanent - Pin Code" required maxlength="6" pattern="[0-9]{6}" placeholder="e.g. 680012"
+                            oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 6); syncPresentAddress();"
+                            class="form-input w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-sm text-slate-900 focus:border-indigo-600 focus:outline-none">
+                    </div>
+
+                    <!-- Country -->
+                    <div>
+                        <label class="block text-xs sm:text-sm font-semibold text-slate-800 mb-1">
+                            Country <span class="text-red-500">*</span>
+                            <span class="block text-[11px] font-normal text-slate-500">രാജ്യം</span>
+                        </label>
+                        <input type="text" id="permCountry" name="Permanent - Country" value="INDIA" readonly
+                            class="form-input w-full rounded-xl border border-slate-200 bg-slate-100 px-3.5 py-2.5 text-sm text-slate-700 font-semibold cursor-not-allowed">
+                    </div>
+
+                    <!-- State -->
+                    <div>
+                        <label class="block text-xs sm:text-sm font-semibold text-slate-800 mb-1">
+                            State <span class="text-red-500">*</span>
+                            <span class="block text-[11px] font-normal text-slate-500">സംസ്ഥാനം</span>
+                        </label>
+                        <input type="text" id="permState" name="Permanent - State" value="KERALA" readonly
+                            class="form-input w-full rounded-xl border border-slate-200 bg-slate-100 px-3.5 py-2.5 text-sm text-slate-700 font-semibold cursor-not-allowed">
+                    </div>
+
+                    <!-- Police District -->
+                    <div>
+                        <label class="block text-xs sm:text-sm font-semibold text-slate-800 mb-1">
+                            Police District <span class="text-red-500">*</span>
+                            <span class="block text-[11px] font-normal text-slate-500">പോലീസ് ജില്ല (e.g. THRISSUR CITY)</span>
+                        </label>
+                        <input type="text" id="permPoliceDistrict" name="Permanent - Police District" required placeholder="e.g. THRISSUR CITY"
+                            oninput="syncPresentAddress()"
+                            class="english-only form-input w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-sm text-slate-900 focus:border-indigo-600 focus:outline-none">
+                        <p class="lang-hint hidden text-[11px] text-red-600 mt-1 font-medium">⚠️ Please type in English only</p>
+                    </div>
+
+                    <!-- Police Station -->
+                    <div>
+                        <label class="block text-xs sm:text-sm font-semibold text-slate-800 mb-1">
+                            Police Station <span class="text-red-500">*</span>
+                            <span class="block text-[11px] font-normal text-slate-500">പോലീസ് സ്റ്റേഷൻ (e.g. THRISSUR WEST)</span>
+                        </label>
+                        <input type="text" id="permPoliceStation" name="Permanent - Police Station" required placeholder="e.g. THRISSUR WEST"
+                            oninput="syncPresentAddress()"
+                            class="english-only form-input w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-sm text-slate-900 focus:border-indigo-600 focus:outline-none">
+                        <p class="lang-hint hidden text-[11px] text-red-600 mt-1 font-medium">⚠️ Please type in English only</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECTION 05: PRESENT ADDRESS -->
+            <section class="bg-white rounded-3xl p-5 sm:p-6 shadow-sm border border-slate-200/80">
+                <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-4 mb-5 border-b border-slate-100">
+                    <div class="flex items-center gap-3">
+                        <span class="w-8 h-8 rounded-xl bg-indigo-600 text-white font-bold text-sm flex items-center justify-center shadow-sm">05</span>
+                        <div>
+                            <h2 class="text-base sm:text-lg font-bold text-slate-900">Present Address</h2>
+                            <p class="text-xs text-slate-500 font-medium">നിലവിലുള്ള വിലാസം</p>
+                        </div>
+                    </div>
+
+                    <!-- Same as Permanent Checkbox -->
+                    <label for="sameAsPermanent" class="inline-flex items-center gap-2.5 px-3.5 py-2 rounded-xl bg-indigo-50 border border-indigo-200 cursor-pointer hover:bg-indigo-100 transition select-none">
+                        <input type="checkbox" id="sameAsPermanent" onchange="toggleSameAddress()"
+                            class="w-4 h-4 rounded text-indigo-600 focus:ring-indigo-500 border-slate-300">
+                        <span class="text-xs sm:text-sm font-bold text-indigo-950">
+                            Same as Permanent <span class="font-normal text-indigo-700">(സ്ഥിര വിലാസം തന്നെ)</span>
+                        </span>
+                    </label>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <!-- House Name -->
+                    <div>
+                        <label class="block text-xs sm:text-sm font-semibold text-slate-800 mb-1">
+                            House Name <span class="text-red-500">*</span>
+                            <span class="block text-[11px] font-normal text-slate-500">വീട്ടുപേര്</span>
+                        </label>
+                        <input type="text" id="presHouseName" name="Present - House Name" required placeholder="e.g. Thakidiyil House"
+                            class="english-only form-input w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-sm text-slate-900 focus:border-indigo-600 focus:outline-none">
+                        <p class="lang-hint hidden text-[11px] text-red-600 mt-1 font-medium">⚠️ Please type in English only</p>
+                    </div>
+
+                    <!-- House No -->
+                    <div>
+                        <label class="block text-xs sm:text-sm font-semibold text-slate-800 mb-1">
+                            House No <span class="text-red-500">*</span>
+                            <span class="block text-[11px] font-normal text-slate-500">വീട്ടുനമ്പർ</span>
+                        </label>
+                        <input type="text" id="presHouseNo" name="Present - House No" required placeholder="e.g. 55/304/2"
+                            class="english-only form-input w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-sm text-slate-900 focus:border-indigo-600 focus:outline-none">
+                        <p class="lang-hint hidden text-[11px] text-red-600 mt-1 font-medium">⚠️ Please type in English only</p>
+                    </div>
+
+                    <!-- Street -->
+                    <div>
+                        <label class="block text-xs sm:text-sm font-semibold text-slate-800 mb-1">
+                            Street <span class="text-red-500">*</span>
+                            <span class="block text-[11px] font-normal text-slate-500">റോഡ് / സ്ട്രീറ്റ്</span>
+                        </label>
+                        <input type="text" id="presStreet" name="Present - Street" required placeholder="e.g. Sreemuruga Road"
+                            class="english-only form-input w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-sm text-slate-900 focus:border-indigo-600 focus:outline-none">
+                        <p class="lang-hint hidden text-[11px] text-red-600 mt-1 font-medium">⚠️ Please type in English only</p>
+                    </div>
+
+                    <!-- Locality -->
+                    <div>
+                        <label class="block text-xs sm:text-sm font-semibold text-slate-800 mb-1">
+                            Locality <span class="text-red-500">*</span>
+                            <span class="block text-[11px] font-normal text-slate-500">സ്ഥലം / ലൊക്കാലിറ്റി</span>
+                        </label>
+                        <input type="text" id="presLocality" name="Present - Locality" required placeholder="e.g. Puthurkkara"
+                            class="english-only form-input w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-sm text-slate-900 focus:border-indigo-600 focus:outline-none">
+                        <p class="lang-hint hidden text-[11px] text-red-600 mt-1 font-medium">⚠️ Please type in English only</p>
+                    </div>
+
+                    <!-- Village / Town / City -->
+                    <div>
+                        <label class="block text-xs sm:text-sm font-semibold text-slate-800 mb-1">
+                            Village / Town / City <span class="text-red-500">*</span>
+                            <span class="block text-[11px] font-normal text-slate-500">വില്ലേജ് / ടൗൺ / സിറ്റി</span>
+                        </label>
+                        <input type="text" id="presVillage" name="Present - Village/Town/City" required placeholder="e.g. Ayyanthole"
+                            class="english-only form-input w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-sm text-slate-900 focus:border-indigo-600 focus:outline-none">
+                        <p class="lang-hint hidden text-[11px] text-red-600 mt-1 font-medium">⚠️ Please type in English only</p>
+                    </div>
+
+                    <!-- Pin Code -->
+                    <div>
+                        <label class="block text-xs sm:text-sm font-semibold text-slate-800 mb-1">
+                            Pin Code (6 Digits) <span class="text-red-500">*</span>
+                            <span class="block text-[11px] font-normal text-slate-500">പിൻ കോഡ്</span>
+                        </label>
+                        <input type="tel" id="presPinCode" name="Present - Pin Code" required maxlength="6" pattern="[0-9]{6}" placeholder="e.g. 680003"
+                            oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 6);"
+                            class="form-input w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-sm text-slate-900 focus:border-indigo-600 focus:outline-none">
+                    </div>
+
+                    <!-- Country -->
+                    <div>
+                        <label class="block text-xs sm:text-sm font-semibold text-slate-800 mb-1">
+                            Country <span class="text-red-500">*</span>
+                            <span class="block text-[11px] font-normal text-slate-500">രാജ്യം</span>
+                        </label>
+                        <input type="text" id="presCountry" name="Present - Country" value="INDIA" readonly
+                            class="form-input w-full rounded-xl border border-slate-200 bg-slate-100 px-3.5 py-2.5 text-sm text-slate-700 font-semibold cursor-not-allowed">
+                    </div>
+
+                    <!-- State -->
+                    <div>
+                        <label class="block text-xs sm:text-sm font-semibold text-slate-800 mb-1">
+                            State <span class="text-red-500">*</span>
+                            <span class="block text-[11px] font-normal text-slate-500">സംസ്ഥാനം</span>
+                        </label>
+                        <input type="text" id="presState" name="Present - State" value="KERALA" readonly
+                            class="form-input w-full rounded-xl border border-slate-200 bg-slate-100 px-3.5 py-2.5 text-sm text-slate-700 font-semibold cursor-not-allowed">
+                    </div>
+
+                    <!-- Police District -->
+                    <div>
+                        <label class="block text-xs sm:text-sm font-semibold text-slate-800 mb-1">
+                            Police District <span class="text-red-500">*</span>
+                            <span class="block text-[11px] font-normal text-slate-500">പോലീസ് ജില്ല (e.g. THRISSUR CITY)</span>
+                        </label>
+                        <input type="text" id="presPoliceDistrict" name="Present - Police District" required placeholder="e.g. THRISSUR CITY"
+                            class="english-only form-input w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-sm text-slate-900 focus:border-indigo-600 focus:outline-none">
+                        <p class="lang-hint hidden text-[11px] text-red-600 mt-1 font-medium">⚠️ Please type in English only</p>
+                    </div>
+
+                    <!-- Police Station -->
+                    <div>
+                        <label class="block text-xs sm:text-sm font-semibold text-slate-800 mb-1">
+                            Police Station <span class="text-red-500">*</span>
+                            <span class="block text-[11px] font-normal text-slate-500">പോലീസ് സ്റ്റേഷൻ (e.g. THRISSUR WEST)</span>
+                        </label>
+                        <input type="text" id="presPoliceStation" name="Present - Police Station" required placeholder="e.g. THRISSUR WEST"
+                            class="english-only form-input w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-sm text-slate-900 focus:border-indigo-600 focus:outline-none">
+                        <p class="lang-hint hidden text-[11px] text-red-600 mt-1 font-medium">⚠️ Please type in English only</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SECTION 06: AUTHORIZATION, AFFIDAVIT & PURPOSE -->
+            <section class="bg-white rounded-3xl p-5 sm:p-6 shadow-sm border border-slate-200/80">
+                <div class="flex items-center gap-3 pb-4 mb-5 border-b border-slate-100">
+                    <span class="w-8 h-8 rounded-xl bg-indigo-600 text-white font-bold text-sm flex items-center justify-center shadow-sm">06</span>
+                    <div>
+                        <h2 class="text-base sm:text-lg font-bold text-slate-900">Authorization, Affidavit & Purpose</h2>
+                        <p class="text-xs text-slate-500 font-medium">സത്യപ്രസ്താവനയും സർട്ടിഫിക്കറ്റിന്റെ ആവശ്യകതയും</p>
+                    </div>
+                </div>
+
+                <div class="space-y-4">
+                    <!-- Physically Available -->
+                    <div>
+                        <label class="block text-xs sm:text-sm font-semibold text-slate-800 mb-1">
+                            Is the applicant physically available for verification in the given address? <span class="text-red-500">*</span>
+                            <span class="block text-[11px] font-normal text-slate-500">അപേക്ഷകൻ പോലീസ് പരിശോധനയ്ക്കായി ഈ വിലാസത്തിൽ നേരിട്ട് ലഭ്യമാണോ?</span>
+                        </label>
+                        <select id="physicallyAvailable" name="Physically Available for Verification" required
+                            class="form-input w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-sm text-slate-900 focus:border-indigo-600 focus:outline-none bg-white">
+                            <option value="Yes" selected>Yes (അതെ)</option>
+                            <option value="No">No (അല്ല)</option>
+                        </select>
+                    </div>
+
+                    <!-- Criminal Record -->
+                    <div>
+                        <label class="block text-xs sm:text-sm font-semibold text-slate-800 mb-1">
+                            Do you have any criminal record or any criminal proceedings against you or your family in any part of the country? <span class="text-red-500">*</span>
+                            <span class="block text-[11px] font-normal text-slate-500">നിങ്ങൾക്കോ കുടുംബത്തിനോ എതിരെ രാജ്യത്ത് എവിടെയെങ്കിലും ക്രിമിനൽ കേസുകൾ നിലവിലുണ്ടോ?</span>
+                        </label>
+                        <select id="criminalRecord" name="Any Criminal Record or Proceedings" required
+                            class="form-input w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-sm text-slate-900 focus:border-indigo-600 focus:outline-none bg-white">
+                            <option value="No" selected>No (ഇല്ല)</option>
+                            <option value="Yes">Yes (ഉണ്ട്)</option>
+                        </select>
+                    </div>
+
+                    <!-- Purpose of Certificate -->
+                    <div>
+                        <label class="block text-xs sm:text-sm font-semibold text-slate-800 mb-1">
+                            Purpose of Certificate <span class="text-red-500">*</span>
+                            <span class="block text-[11px] font-normal text-slate-500">സർട്ടിഫിക്കറ്റിന്റെ ആവശ്യകത തിരഞ്ഞെടുക്കുക</span>
+                        </label>
+                        <select id="purposeOfCertificate" name="Purpose of Certificate" required onchange="handlePurposeChange()"
+                            class="form-input w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-sm text-slate-900 focus:border-indigo-600 focus:outline-none bg-white">
+                            <option value="">-- Select Purpose / ആവശ്യകത തിരഞ്ഞെടുക്കുക --</option>
+                            <optgroup label="NIOC to be issued by District Police Chief (ജില്ലാ പോലീസ് മേധാവി വഴി)">
+                                <option value="Entry into highly secured areas (DPC)">Entry into highly secured areas</option>
+                                <option value="Employment at Central Govt Agencies (DPC)">Employment at Central Govt Agencies</option>
+                                <option value="Internship/Apprenticeship (DPC)">Internship/Apprenticeship</option>
+                                <option value="Armed Forces (DPC)">Armed Forces</option>
+                                <option value="Education within India (DPC)">Education within India</option>
+                                <option value="Local Employment (DPC)">Local Employment</option>
+                                <option value="Any Other Purpose - NIOC to be issued by District Police Chief">Any Other Purpose - NIOC to be issued by District Police Chief</option>
+                            </optgroup>
+                            <optgroup label="NIOC to be issued by SHO of Police Station (പോലീസ് സ്റ്റേഷൻ SHO വഴി)">
+                                <option value="Local Employment (SHO)">Local Employment</option>
+                                <option value="National Savings agents (SHO)">National Savings agents</option>
+                                <option value="Renewal of National Savings agents license (SHO)">Renewal of National Savings agents license</option>
+                                <option value="Army Recruitment Rally (SHO)">Army Recruitment Rally</option>
+                                <option value="Door service by Govt. (SHO)">Door service by Govt.</option>
+                                <option value="Any Other Purpose - NIOC to be issued by SHO of Police Station">Any Other Purpose - NIOC to be issued by SHO of Police Station</option>
+                            </optgroup>
+                        </select>
+                    </div>
+
+                    <!-- If others, specify -->
+                    <div id="otherPurposeWrapper">
+                        <label class="block text-xs sm:text-sm font-semibold text-slate-800 mb-1">
+                            If others, specify / Additional Purpose Details <span id="otherRequiredStar" class="text-red-500 hidden">*</span>
+                            <span class="block text-[11px] font-normal text-slate-500">മറ്റുള്ളവ ആണെങ്കിൽ കാരണം വ്യക്തമാക്കുക (അല്ലെങ്കിൽ സ്ഥാപനത്തിന്റെ പേര്)</span>
+                        </label>
+                        <input type="text" id="otherPurposeText" name="If Others / Specify Purpose" placeholder="Specify exact purpose or company/institution name in English"
+                            class="english-only form-input w-full rounded-xl border border-slate-300 px-3.5 py-2.5 text-sm text-slate-900 focus:border-indigo-600 focus:outline-none">
+                        <p class="lang-hint hidden text-[11px] text-red-600 mt-1 font-medium">⚠️ Please type in English only</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SUBMIT & DOWNLOAD BUTTON -->
+            <div class="pt-2">
+                <button type="submit"
+                    class="w-full rounded-2xl bg-gradient-to-r from-indigo-600 via-indigo-700 to-slate-900 hover:from-indigo-500 hover:to-indigo-900 text-white font-bold py-4 px-6 shadow-xl shadow-indigo-600/20 active:scale-[0.99] transition flex items-center justify-center gap-3 text-base sm:text-lg border border-indigo-400/30">
+                    <svg class="w-6 h-6 text-amber-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+                    </svg>
+                    <span>Submit & Download File (വിവരങ്ങൾ സമർപ്പിക്കുക)</span>
+                </button>
+                <p class="text-center text-[11px] sm:text-xs text-slate-500 mt-2.5">
+                    Clicking above will download your data file and show the list of documents to send via WhatsApp.
+                </p>
+            </div>
+        </form>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-900 text-slate-400 text-xs py-6 px-4 border-t border-slate-800 mt-10">
+        <div class="max-w-3xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-3 text-center sm:text-left">
+            <div>
+                <p class="font-bold text-white">NEXIA VIRTUAL DESK</p>
+                <p class="text-[11px] text-slate-400">Olarikkara, Thrissur, Kerala | 17 Years of Excellence</p>
+            </div>
+            <div class="flex items-center gap-2 bg-slate-800 px-3.5 py-2 rounded-xl border border-slate-700">
+                <span class="text-emerald-400 font-bold">WhatsApp Helpdesk:</span>
+                <a href="https://wa.me/919961850698" target="_blank" class="text-white font-semibold hover:underline">+91 9961850698</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- CONFIRMATION & DOCUMENT CHECKLIST POPUP MODAL -->
+    <div id="successModal" class="fixed inset-0 z-50 hidden bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-3 sm:p-5 overflow-y-auto">
+        <div class="bg-white rounded-3xl max-w-lg w-full p-5 sm:p-7 shadow-2xl border border-slate-200 my-auto relative animate-fadeIn">
+            
+            <!-- Close Button -->
+            <button type="button" onclick="closeModal()" class="absolute top-4 right-4 w-8 h-8 rounded-full bg-slate-100 hover:bg-slate-200 text-slate-600 flex items-center justify-center font-bold text-sm">
+                ✕
+            </button>
+
+            <!-- Success Header -->
+            <div class="flex items-center gap-3.5 mb-4">
+                <div class="w-12 h-12 rounded-2xl bg-emerald-100 text-emerald-600 flex items-center justify-center flex-shrink-0 shadow-inner">
+                    <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M5 13l4 4L19 7"/>
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="text-lg sm:text-xl font-extrabold text-slate-900">File Downloaded!</h3>
+                    <p class="text-xs sm:text-sm font-semibold text-emerald-700">നിങ്ങളുടെ വിവരങ്ങൾ അടങ്ങിയ ഫയൽ ഡൗൺലോഡ് ആയിട്ടുണ്ട്.</p>
+                </div>
+            </div>
+
+            <!-- Highlighted Filename Box -->
+            <div class="bg-indigo-950 text-white rounded-2xl p-4 mb-4 border border-indigo-700 shadow-inner">
+                <p class="text-[11px] uppercase tracking-wider text-indigo-300 font-semibold mb-1">
+                    Downloaded File Name (ഡൗൺലോഡ് ആയ ഫയലിന്റെ പേര്):
+                </p>
+                <div class="flex items-center justify-between gap-2 bg-slate-900/90 px-3.5 py-2.5 rounded-xl border border-indigo-500/40">
+                    <code id="modalFileName" class="text-amber-400 font-mono font-bold text-base sm:text-lg break-all">customername+pcc</code>
+                    <span class="text-[10px] bg-amber-500/20 text-amber-300 px-2 py-0.5 rounded font-semibold flex-shrink-0">No Extension</span>
+                </div>
+                <p class="text-[11px] text-indigo-200 mt-2 leading-relaxed">
+                    ⚠️ ഈ ഫയൽ ഫോണിൽ തുറക്കേണ്ടതില്ല. നിങ്ങളുടെ ഫോണിലെ <strong>Downloads</strong> ഫോൾഡറിൽ നിന്നോ ബ്രൗസറിൽ നിന്നോ ഈ ഫയൽ താഴെ പറയുന്ന രേഖകൾക്കൊപ്പം ഞങ്ങളുടെ വാട്സ്ആപ്പിലേക്ക് അയക്കുക.
+                </p>
+            </div>
+
+            <!-- Required Documents Checklist -->
+            <div class="bg-slate-50 rounded-2xl p-4 border border-slate-200 mb-5">
+                <h4 class="text-xs sm:text-sm font-extrabold text-slate-900 uppercase tracking-wide mb-2.5 flex items-center gap-2">
+                    <span class="w-2 h-2 rounded-full bg-indigo-600"></span>
+                    Documents to Send on WhatsApp / വാട്സ്ആപ്പിൽ അയക്കേണ്ടവ:
+                </h4>
+                <ul class="space-y-2.5 text-xs sm:text-sm text-slate-700">
+                    <li class="flex items-start gap-2.5 bg-amber-50/90 p-2 rounded-xl border border-amber-200">
+                        <span class="font-extrabold text-amber-700">1.</span>
+                        <div>
+                            <span class="font-bold text-slate-900">Downloaded File: </span>
+                            <code id="checklistFileName" class="font-mono font-bold text-indigo-700 bg-indigo-100 px-1.5 py-0.5 rounded">customername+pcc</code>
+                            <p class="text-[11px] text-slate-600 mt-0.5">ഇപ്പോൾ ഫോണിൽ ഡൗൺലോഡ് ആയ ഈ ഫയൽ (Document ആയി അയക്കുക)</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-2.5 px-2">
+                        <span class="font-bold text-indigo-600">2.</span>
+                        <div>
+                            <span class="font-semibold text-slate-900">ID Proof (<span id="checklistIdType">Aadhaar Card</span>)</span>
+                            <p class="text-[11px] text-slate-500">തിരിച്ചറിയൽ രേഖയുടെ വ്യക്തമായ കോപ്പി</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-2.5 px-2">
+                        <span class="font-bold text-indigo-600">3.</span>
+                        <div>
+                            <span class="font-semibold text-slate-900">Address Proof (<span id="checklistAddressType">Aadhaar Card</span>)</span>
+                            <p class="text-[11px] text-slate-500">മേൽവിലാസം തെളിയിക്കുന്ന രേഖ</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-2.5 px-2">
+                        <span class="font-bold text-indigo-600">4.</span>
+                        <div>
+                            <span class="font-semibold text-slate-900">Requirement Proof (Purpose Proof)</span>
+                            <p class="text-[11px] text-slate-500">ആവശ്യകത തെളിയിക്കുന്ന രേഖ (Offer Letter / ID Card / Official Letter)</p>
+                        </div>
+                    </li>
+                    <li class="flex items-start gap-2.5 px-2">
+                        <span class="font-bold text-indigo-600">5.</span>
+                        <div>
+                            <span class="font-semibold text-slate-900">Passport Size Photo</span>
+                            <p class="text-[11px] text-slate-500">പാസ്‌പോർട്ട് സൈസ് ഫോട്ടോ (ആവശ്യമെങ്കിൽ)</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="space-y-2.5">
+                <a id="whatsappSendBtn" href="#" target="_blank"
+                    class="w-full rounded-2xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-3.5 px-5 shadow-lg shadow-emerald-600/25 flex items-center justify-center gap-2.5 text-sm sm:text-base transition">
+                    <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                        <path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824z"/>
+                    </svg>
+                    <span>Send to WhatsApp (+91 9961850698)</span>
+                </a>
+
+                <button type="button" onclick="triggerFileDownloadAgain()"
+                    class="w-full rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 font-semibold py-2.5 px-4 text-xs sm:text-sm transition flex items-center justify-center gap-2">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/>
+                    </svg>
+                    <span>Download File Again (<span id="retryBtnFileName">customername+pcc</span>)</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- JAVASCRIPT LOGIC -->
+    <script>
+        // Store last generated blob content & filename for re-downloading if needed
+        let lastGeneratedHtmlContent = "";
+        let lastGeneratedFileName = "customer+pcc";
+
+        // 1. Enforce strict English ASCII input on text fields
+        document.querySelectorAll('.english-only').forEach(input => {
+            input.addEventListener('input', function () {
+                const original = this.value;
+                // Allow printable ASCII characters (English letters, digits, punctuation)
+                const cleaned = original.replace(/[^\x20-\x7E]/g, '');
+                const hintEl = this.parentElement.querySelector('.lang-hint');
+                if (original !== cleaned) {
+                    this.value = cleaned;
+                    if (hintEl) {
+                        hintEl.classList.remove('hidden');
+                        clearTimeout(this.hintTimer);
+                        this.hintTimer = setTimeout(() => hintEl.classList.add('hidden'), 3500);
+                    }
+                }
+            });
+        });
+
+        // 2. Permanent to Present Address Sync
+        const addressPairs = [
+            ['permHouseName', 'presHouseName'],
+            ['permHouseNo', 'presHouseNo'],
+            ['permStreet', 'presStreet'],
+            ['permLocality', 'presLocality'],
+            ['permVillage', 'presVillage'],
+            ['permPinCode', 'presPinCode'],
+            ['permCountry', 'presCountry'],
+            ['permState', 'presState'],
+            ['permPoliceDistrict', 'presPoliceDistrict'],
+            ['permPoliceStation', 'presPoliceStation']
+        ];
+
+        function toggleSameAddress() {
+            const isChecked = document.getElementById('sameAsPermanent').checked;
+            addressPairs.forEach(([permId, presId]) => {
+                const permEl = document.getElementById(permId);
+                const presEl = document.getElementById(presId);
+                if (isChecked) {
+                    presEl.value = permEl.value;
+                    presEl.setAttribute('readonly', true);
+                    presEl.classList.add('bg-slate-100', 'text-slate-600');
+                } else {
+                    if (presId !== 'presCountry' && presId !== 'presState') {
+                        presEl.removeAttribute('readonly');
+                        presEl.classList.remove('bg-slate-100', 'text-slate-600');
+                    }
+                }
+            });
+        }
+
+        function syncPresentAddress() {
+            if (document.getElementById('sameAsPermanent').checked) {
+                toggleSameAddress();
+            }
+        }
+
+        // 3. Dynamic "Any Other Purpose" Required Toggle
+        function handlePurposeChange() {
+            const purposeVal = document.getElementById('purposeOfCertificate').value;
+            const otherInput = document.getElementById('otherPurposeText');
+            const star = document.getElementById('otherRequiredStar');
+            if (purposeVal.includes('Any Other Purpose')) {
+                otherInput.setAttribute('required', 'required');
+                star.classList.remove('hidden');
+                otherInput.focus();
+            } else {
+                otherInput.removeAttribute('required');
+                star.classList.add('hidden');
+            }
+        }
+
+        // Helper: Format YYYY-MM-DD to DD/MM/YYYY for Kerala Police THUNA portal compatibility
+        function formatDateToIndian(dateStr) {
+            if (!dateStr) return "";
+            const parts = dateStr.split('-');
+            if (parts.length !== 3) return dateStr;
+            return `${parts[2]}/${parts[1]}/${parts[0]}`;
+        }
+
+        // Helper: Escape HTML for safe embedding inside generated file
+        function escapeHtml(str) {
+            return String(str || '')
+                .replace(/&/g, '&amp;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;')
+                .replace(/"/g, '&quot;')
+                .replace(/'/g, '&#039;');
+        }
+
+        // 4. Build Self-Contained Admin HTML File Content (with Search & One-Click Copy for every answer)
+        function generateAdminHtmlFile(entries, customerFullName, fileNameNoExt) {
+            const submissionTime = new Date().toLocaleString('en-IN', {
+                dateStyle: 'medium',
+                timeStyle: 'short'
+            });
+
+            const rowsHtml = entries.map((item, idx) => {
+                const safeSection = escapeHtml(item.section);
+                const safeLabel = escapeHtml(item.label);
+                const safeMalayalam = escapeHtml(item.malayalam);
+                const safeValue = escapeHtml(item.value);
+                const isEmpty = !item.value || item.value.trim() === '';
+                const displayVal = isEmpty ? '— Not Provided —' : safeValue;
+
+                return `
+                <div class="data-row bg-white rounded-2xl p-4 border border-slate-200 shadow-sm hover:border-indigo-400 transition flex flex-col sm:flex-row sm:items-center justify-between gap-3"
+                     data-search="${safeSection.toLowerCase()} ${safeLabel.toLowerCase()} ${safeMalayalam.toLowerCase()} ${safeValue.toLowerCase()}">
+                    <div class="space-y-0.5 pr-2">
+                        <div class="flex items-center gap-2">
+                            <span class="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded bg-slate-100 text-slate-600">${safeSection}</span>
+                            <span class="text-xs font-bold text-slate-500">#${String(idx + 1).padStart(2, '0')}</span>
+                        </div>
+                        <p class="text-xs sm:text-sm font-semibold text-slate-700 pt-1">${safeLabel} <span class="text-slate-400 font-normal">(${safeMalayalam})</span></p>
+                        <p class="text-base sm:text-lg font-extrabold ${isEmpty ? 'text-slate-400 italic font-normal' : 'text-slate-950'} break-all pt-0.5" id="val-${idx}">${displayVal}</p>
+                    </div>
+                    <div class="flex items-center gap-2 flex-shrink-0">
+                        <button type="button" onclick="copyAnswer(${idx}, this)" data-raw="${safeValue}"
+                            class="w-full sm:w-auto px-4 py-2.5 rounded-xl font-bold text-xs sm:text-sm bg-indigo-600 hover:bg-indigo-500 active:scale-95 text-white shadow-sm transition flex items-center justify-center gap-1.5 cursor-pointer">
+                            <span>Copy</span>
+                        </button>
+                    </div>
+                </div>`;
+            }).join('\n');
+
+            return `<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexia Admin View - ${escapeHtml(customerFullName)} (PCC)</title>
+    <script src="https://cdn.tailwindcss.com"><\/script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+Malayalam:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', 'Noto Sans Malayalam', sans-serif; background-color: #f1f5f9; }
+    </style>
+</head>
+<body class="min-h-screen pb-14">
+    <!-- Top Header -->
+    <header class="bg-slate-950 text-white border-b border-slate-800 sticky top-0 z-30 shadow-lg">
+        <div class="max-w-4xl mx-auto px-4 py-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+            <div>
+                <div class="flex items-center gap-2">
+                    <span class="px-2 py-0.5 text-[10px] font-extrabold bg-amber-400 text-slate-950 rounded uppercase">THUNA PCC DATA</span>
+                    <span class="text-xs text-slate-400 font-mono">${escapeHtml(fileNameNoExt)}</span>
+                </div>
+                <h1 class="text-lg sm:text-xl font-extrabold text-white mt-0.5">Customer: <span class="text-cyan-400">${escapeHtml(customerFullName)}</span></h1>
+                <p class="text-[11px] text-slate-400">Generated via Nexia Virtual Desk • ${escapeHtml(submissionTime)}</p>
+            </div>
+            <!-- Live Search Bar -->
+            <div class="relative w-full sm:w-72">
+                <input type="text" id="searchInput" oninput="filterRows()" placeholder="Search field or answer..."
+                    class="w-full rounded-xl bg-slate-900 border border-slate-700 text-white placeholder-slate-400 px-3.5 py-2 text-sm focus:outline-none focus:border-cyan-400">
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-4xl mx-auto px-4 pt-6 space-y-3" id="rowsContainer">
+        ${rowsHtml}
+    </main>
+
+    <div id="noResults" class="hidden max-w-4xl mx-auto px-4 py-12 text-center text-slate-500 font-semibold">
+        No matching fields or answers found.
+    </div>
+
+    <script>
+        function copyAnswer(idx, btn) {
+            const textToCopy = btn.getAttribute('data-raw') || '';
+            const tempInput = document.createElement('textarea');
+            tempInput.value = textToCopy;
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempInput);
+
+            const originalHtml = btn.innerHTML;
+            btn.innerHTML = '<span>Copied! ✓</span>';
+            btn.classList.remove('bg-indigo-600', 'hover:bg-indigo-500');
+            btn.classList.add('bg-emerald-600');
+            setTimeout(() => {
+                btn.innerHTML = originalHtml;
+                btn.classList.remove('bg-emerald-600');
+                btn.classList.add('bg-indigo-600', 'hover:bg-indigo-500');
+            }, 1400);
+        }
+
+        function filterRows() {
+            const q = document.getElementById('searchInput').value.toLowerCase().trim();
+            const rows = document.querySelectorAll('.data-row');
+            let visibleCount = 0;
+            rows.forEach(r => {
+                const hay = r.getAttribute('data-search') || '';
+                if (hay.includes(q)) {
+                    r.classList.remove('hidden');
+                    visibleCount++;
+                } else {
+                    r.classList.add('hidden');
+                }
+            });
+            document.getElementById('noResults').classList.toggle('hidden', visibleCount > 0);
+        }
+    <\/script>
+</body>
+</html>`;
+        }
+
+        // 5. Download Extensionless File Helper
+        function downloadExtensionlessFile(content, fileNameNoExtension) {
+            // Using application/octet-stream prevents browsers from forcing .html or .txt extension
+            const blob = new Blob([content], { type: 'application/octet-stream' });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.style.display = 'none';
+            a.href = url;
+            a.setAttribute('download', fileNameNoExtension);
+            document.body.appendChild(a);
+            a.click();
+            setTimeout(() => {
+                document.body.removeChild(a);
+                URL.revokeObjectURL(url);
+            }, 600);
+        }
+
+        function triggerFileDownloadAgain() {
+            if (lastGeneratedHtmlContent && lastGeneratedFileName) {
+                downloadExtensionlessFile(lastGeneratedHtmlContent, lastGeneratedFileName);
+            }
+        }
+
+        function closeModal() {
+            document.getElementById('successModal').classList.add('hidden');
+        }
+
+        // 6. Form Submit Handler
+        document.getElementById('pccForm').addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            // Sync Present Address if checkbox is checked
+            syncPresentAddress();
+
+            // Check native validity
+            if (!this.checkValidity()) {
+                const errorBanner = document.getElementById('formErrorBanner');
+                errorBanner.classList.remove('hidden');
+                const firstInvalid = this.querySelector(':invalid');
+                if (firstInvalid) {
+                    firstInvalid.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    firstInvalid.focus();
+                }
+                return;
+            }
+
+            document.getElementById('formErrorBanner').classList.add('hidden');
+
+            // Gather values
+            const firstName = document.getElementById('firstName').value.trim();
+            const lastName = document.getElementById('lastName').value.trim();
+            const dobRaw = document.getElementById('dob').value;
+            const dobFormatted = formatDateToIndian(dobRaw);
+
+            // Construct sanitized extensionless filename: customername+pcc
+            const cleanCustomerName = (firstName + lastName).toLowerCase().replace(/[^a-z0-9]/g, '') || 'customer';
+            const fileNameNoExt = `${cleanCustomerName}+pcc`;
+
+            // Structured entries for Admin Copy View
+            const entries = [
+                // Section 01
+                { section: 'Sec 01: Personal', label: 'First Name', malayalam: 'പേരിന്റെ ആദ്യ ഭാഗം', value: firstName },
+                { section: 'Sec 01: Personal', label: 'Last Name', malayalam: 'പേരിന്റെ അവസാന ഭാഗം', value: lastName },
+                { section: 'Sec 01: Personal', label: 'Date of Birth (DD/MM/YYYY)', malayalam: 'ജനന തീയതി', value: dobFormatted },
+                { section: 'Sec 01: Personal', label: 'Gender', malayalam: 'ലിംഗവിവരം', value: document.getElementById('gender').value },
+
+                // Section 02
+                { section: 'Sec 02: Contact', label: 'Mobile Number', malayalam: 'മൊബൈൽ നമ്പർ', value: document.getElementById('mobileNumber').value.trim() },
+                { section: 'Sec 02: Contact', label: 'Landline Number', malayalam: 'ലാൻഡ്‌ലൈൻ നമ്പർ', value: document.getElementById('landlineNumber').value.trim() },
+                { section: 'Sec 02: Contact', label: 'Email ID', malayalam: 'ഇമെയിൽ വിലാസം', value: document.getElementById('emailId').value.trim() },
+                { section: 'Sec 02: Contact', label: 'Nationality', malayalam: 'പൗരത്വം', value: document.getElementById('nationality').value },
+                { section: 'Sec 02: Contact', label: 'Relation Type', malayalam: 'ബന്ധുത്വം', value: document.getElementById('relationType').value },
+                { section: 'Sec 02: Contact', label: 'Relative Name', malayalam: 'ബന്ധുവിന്റെ പേര്', value: document.getElementById('relativeName').value.trim() },
+
+                // Section 03
+                { section: 'Sec 03: ID Proof', label: 'ID Type', malayalam: 'തിരിച്ചറിയൽ രേഖയുടെ തരം', value: document.getElementById('idType').value },
+                { section: 'Sec 03: ID Proof', label: 'ID Number', malayalam: 'തിരിച്ചറിയൽ രേഖ നമ്പർ', value: document.getElementById('idNumber').value.trim() },
+                { section: 'Sec 03: ID Proof', label: 'Address Proof Document', malayalam: 'മേൽവിലാസം തെളിയിക്കുന്ന രേഖ', value: document.getElementById('addressProofType').value },
+
+                // Section 04: Permanent Address
+                { section: 'Sec 04: Permanent Address', label: 'House Name (Permanent)', malayalam: 'വീട്ടുപേര്', value: document.getElementById('permHouseName').value.trim() },
+                { section: 'Sec 04: Permanent Address', label: 'House No (Permanent)', malayalam: 'വീട്ടുനമ്പർ', value: document.getElementById('permHouseNo').value.trim() },
+                { section: 'Sec 04: Permanent Address', label: 'Street (Permanent)', malayalam: 'റോഡ് / സ്ട്രീറ്റ്', value: document.getElementById('permStreet').value.trim() },
+                { section: 'Sec 04: Permanent Address', label: 'Locality (Permanent)', malayalam: 'സ്ഥലം / ലൊക്കാലിറ്റി', value: document.getElementById('permLocality').value.trim() },
+                { section: 'Sec 04: Permanent Address', label: 'Village/Town/City (Permanent)', malayalam: 'വില്ലേജ് / ടൗൺ / സിറ്റി', value: document.getElementById('permVillage').value.trim() },
+                { section: 'Sec 04: Permanent Address', label: 'Pin Code (Permanent)', malayalam: 'പിൻ കോഡ്', value: document.getElementById('permPinCode').value.trim() },
+                { section: 'Sec 04: Permanent Address', label: 'Country (Permanent)', malayalam: 'രാജ്യം', value: document.getElementById('permCountry').value },
+                { section: 'Sec 04: Permanent Address', label: 'State (Permanent)', malayalam: 'സംസ്ഥാനം', value: document.getElementById('permState').value },
+                { section: 'Sec 04: Permanent Address', label: 'Police District (Permanent)', malayalam: 'പോലീസ് ജില്ല', value: document.getElementById('permPoliceDistrict').value.trim() },
+                { section: 'Sec 04: Permanent Address', label: 'Police Station (Permanent)', malayalam: 'പോലീസ് സ്റ്റേഷൻ', value: document.getElementById('permPoliceStation').value.trim() },
+
+                // Section 05: Present Address
+                { section: 'Sec 05: Present Address', label: 'Same as Permanent Address', malayalam: 'സ്ഥിര വിലാസം തന്നെയാണോ', value: document.getElementById('sameAsPermanent').checked ? 'Yes' : 'No' },
+                { section: 'Sec 05: Present Address', label: 'House Name (Present)', malayalam: 'വീട്ടുപേര്', value: document.getElementById('presHouseName').value.trim() },
+                { section: 'Sec 05: Present Address', label: 'House No (Present)', malayalam: 'വീട്ടുനമ്പർ', value: document.getElementById('presHouseNo').value.trim() },
+                { section: 'Sec 05: Present Address', label: 'Street (Present)', malayalam: 'റോഡ് / സ്ട്രീറ്റ്', value: document.getElementById('presStreet').value.trim() },
+                { section: 'Sec 05: Present Address', label: 'Locality (Present)', malayalam: 'സ്ഥലം / ലൊക്കാലിറ്റി', value: document.getElementById('presLocality').value.trim() },
+                { section: 'Sec 05: Present Address', label: 'Village/Town/City (Present)', malayalam: 'വില്ലേജ് / ടൗൺ / സിറ്റി', value: document.getElementById('presVillage').value.trim() },
+                { section: 'Sec 05: Present Address', label: 'Pin Code (Present)', malayalam: 'പിൻ കോഡ്', value: document.getElementById('presPinCode').value.trim() },
+                { section: 'Sec 05: Present Address', label: 'Country (Present)', malayalam: 'രാജ്യം', value: document.getElementById('presCountry').value },
+                { section: 'Sec 05: Present Address', label: 'State (Present)', malayalam: 'സംസ്ഥാനം', value: document.getElementById('presState').value },
+                { section: 'Sec 05: Present Address', label: 'Police District (Present)', malayalam: 'പോലീസ് ജില്ല', value: document.getElementById('presPoliceDistrict').value.trim() },
+                { section: 'Sec 05: Present Address', label: 'Police Station (Present)', malayalam: 'പോലീസ് സ്റ്റേഷൻ', value: document.getElementById('presPoliceStation').value.trim() },
+
+                // Section 06: Affidavit & Purpose
+                { section: 'Sec 06: Purpose & Affidavit', label: 'Physically Available for Verification', malayalam: 'പരിശോധനയ്ക്ക് നേരിട്ട് ലഭ്യമാണോ', value: document.getElementById('physicallyAvailable').value },
+                { section: 'Sec 06: Purpose & Affidavit', label: 'Criminal Record / Proceedings', malayalam: 'ക്രിമിനൽ കേസുകൾ നിലവിലുണ്ടോ', value: document.getElementById('criminalRecord').value },
+                { section: 'Sec 06: Purpose & Affidavit', label: 'Purpose of Certificate', malayalam: 'സർട്ടിഫിക്കറ്റിന്റെ ആവശ്യകത', value: document.getElementById('purposeOfCertificate').value },
+                { section: 'Sec 06: Purpose & Affidavit', label: 'If Others / Specify Purpose', malayalam: 'മറ്റുള്ളവ / കൂടുതൽ വിവരങ്ങൾ', value: document.getElementById('otherPurposeText').value.trim() }
+            ];
+
+            const customerFullName = `${firstName} ${lastName}`.trim();
+            lastGeneratedHtmlContent = generateAdminHtmlFile(entries, customerFullName, fileNameNoExt);
+            lastGeneratedFileName = fileNameNoExt;
+
+            // 1. Trigger Extensionless File Download immediately
+            downloadExtensionlessFile(lastGeneratedHtmlContent, fileNameNoExt);
+
+            // 2. Populate Modal Details
+            document.getElementById('modalFileName').textContent = fileNameNoExt;
+            document.getElementById('checklistFileName').textContent = fileNameNoExt;
+            document.getElementById('retryBtnFileName').textContent = fileNameNoExt;
+            document.getElementById('checklistIdType').textContent = document.getElementById('idType').value;
+            document.getElementById('checklistAddressType').textContent = document.getElementById('addressProofType').value;
+
+            // 3. Prepare WhatsApp Link (+91 9961850698)
+            const waLines = [
+                `*NEXIA VIRTUAL DESK - PCC APPLICATION*`,
+                `----------------------------------`,
+                `*Applicant Name:* ${customerFullName}`,
+                `*Mobile:* ${document.getElementById('mobileNumber').value.trim()}`,
+                `*DOB:* ${dobFormatted}`,
+                `*Police Station:* ${document.getElementById('presPoliceStation').value.trim()}`,
+                `*Purpose:* ${document.getElementById('purposeOfCertificate').value}`,
+                `----------------------------------`,
+                `*Downloaded File Name:* \`${fileNameNoExt}\``,
+                ``,
+                `ഞാൻ പൂരിപ്പിച്ച വിവരങ്ങളുടെ ഫയലും (${fileNameNoExt}) ആവശ്യമായ രേഖകളും (ID Proof, Address Proof, Requirement Proof) ഇതോടൊപ്പം അയക്കുന്നു.`
+            ];
+            const waUrl = `https://wa.me/919961850698?text=${encodeURIComponent(waLines.join('\n'))}`;
+            document.getElementById('whatsappSendBtn').href = waUrl;
+
+            // 4. Show Popup Modal
+            document.getElementById('successModal').classList.remove('hidden');
+        });
+    </script>
+</body>
+</html>
